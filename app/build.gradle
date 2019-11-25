@@ -55,7 +55,21 @@ android {
     }
 }
 
+// METAMODE 
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+    }
+}
+
 dependencies {
+    // METAMODE
+    // #########
+    
     // Android support
     implementation deps.support.appcompat
     implementation deps.support.design
